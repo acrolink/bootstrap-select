@@ -5,12 +5,6 @@
  * Licensed under MIT (https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE)
  */
 
-/* fix up down mess - always up :-) */
-.dropdown-menu {
-	top: auto !important;
-	bottom: 100% !important;
-}
-
 select.bs-select-hidden,
 select.selectpicker {
   display: none !important;
@@ -304,3 +298,9 @@ select.selectpicker {
   float: none;
 }
 /*# sourceMappingURL=bootstrap-select.css.map */
+
+/* fix up down mess - always up :-) */
+.dropdown-menu {
+	top: auto !important;
+	bottom: 100% !important;
+}
